@@ -1,0 +1,5 @@
+export { default as Home } from './Home'
+export { default as Details } from './Detail'
+export { default as Checkout } from './Checkout'
+export { default as Hero } from './Hero'
+export { default as Confirmation } from './Confirmation'
