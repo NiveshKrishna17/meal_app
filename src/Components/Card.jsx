@@ -13,7 +13,9 @@ const CardComponent = ({ data }) => {
     <Fragment>
       <Card
         style={{ width: 300 }}
-        cover={<img alt="example" src={data?.strCategoryThumb} />}
+        cover={
+          <img alt="example" loading="eager" src={data?.strCategoryThumb} />
+        }
         actions={[<ShoppingCartOutlined onClick={() => handleDetails(data)} />]}
       >
         <Meta title={data?.strCategory} />
